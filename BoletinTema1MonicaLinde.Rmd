@@ -103,17 +103,42 @@ dim(a1)
 ```{r}
 head(a1)
 ```
+
 ```{r}
 tail(a1)
 ```
+
 ```{r}
 str(a1)
 ```
+
 ```{r}
 rownames(a1)
 ```
+
 ```{r}
 colnames(a1)
+```
+Ahora mostramos las caraterísticas del conjunto Animals2
+```{r}
+b<-Animals2
+b1<- b
+dim(b1)
+```
+```{r}
+head(b1)
+```
+```{r}
+tail(b1)
+```
+```{r}
+str(b1)
+```
+```{r}
+rownames(b1)
+```
+```{r}
+colnames(b1)
 ```
 
 
