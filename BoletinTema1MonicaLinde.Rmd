@@ -181,10 +181,8 @@ qqPlot(log(Animals2$brain))
 #Viendo la representación gráfica si que son similares y por lo tanto presen-
 #tan el mismo comportamiento.
 #De acuerdo a la definición de distribución gaussiana:
-#es acampanada, simétrica, unimodal, con media y mediana similares y las colas 
-#cercanas a 0
-#Por lo tanto como vemos en la representación gráfica no es una campana.
-#Por lo tanto no es una distribución gaussiana
+#Por lo tanto como vemos en la representación gráfica son una una distribución 
+#gaussiana
 ```
 
 3.  La función **library** sin argumentos abre una ventana y muestra las librerías que han sido instaladas.
@@ -269,10 +267,7 @@ summary(cabbages)
 5.  Muchas pruebas estadísticas suponen que los datos siguen una distribución Gaussiana. Utiliza la aproximación visual proporcionada por **qqPlot** para determinar si podemos asumir que las variables **HeadWt** y **VitC** del conjunto **cabbages** verifican esta condición.
 
 ```{r}
-
-
-
-
+qqplot(cabbages$HeadWt, cabbages$VitC, cex.lab=2,cex.axis=1) 
 
 ```
 
