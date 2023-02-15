@@ -198,6 +198,7 @@ qqPlot(log(Animals2$brain))
 libReturn<- library()
 #b)
 libReturn[[2]][1:5,1]
+head(libReturn$results, n=5)
 
 
 
